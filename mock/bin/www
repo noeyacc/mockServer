@@ -1,0 +1,11 @@
+var app = require("../index");
+var http = require("http");
+var { onListening } = require("../utils");
+var port = 1234;
+var server = http.createServer(app);
+
+app.set("port", port);
+
+server
+  .listen(port)
+  .on("listening", onListening);

@@ -1,0 +1,24 @@
+{
+  "200": [
+    {
+      "id": 1,
+      "active": false,
+      "stages": 2
+    },
+    {
+      "id": 2,
+      "active": true,
+      "stages": 2
+    },
+    {
+      "id": 3,
+      "active": true,
+      "stages": 2
+    },
+    {
+      "id": 4,
+      "active": false,
+      "stages": 2
+    }
+  ]
+}
